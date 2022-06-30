@@ -1,0 +1,298 @@
+body {
+  text-align: center;
+  width: 100%;
+  background-color: white;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+  text-align: left;
+}
+
+@media only screen and (max-width: 375px) {
+  .container-fluid {
+    text-align: center;
+  }
+}
+/* title-section */
+#title {
+  margin: 2% 4% 15%;
+}
+.title-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-btn {
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: hsl(321, 100%, 78%);
+  color: hsl(321, 100%, 78%);
+
+  padding: 3px 30px;
+}
+.title-btn:hover {
+  border-color: hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+
+.title-text {
+  font-family: "Poppins", sans-serif;
+}
+.title-heading {
+  margin: 12% 0 1%;
+
+  font-weight: 700;
+  font-size: 3rem;
+}
+.title-body {
+  margin: 1% 30% 2%;
+}
+.get-started-btn {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+
+  border-radius: 20px;
+  font-size: small;
+  font-weight: 400;
+  padding: 10px 70px;
+}
+.title-image {
+  max-width: 100%;
+  height: auto;
+  margin: 10% 0 10%;
+}
+.flex-stat {
+  display: flex;
+  justify-content: space-evenly;
+}
+.stat-icon {
+  width: 40px;
+}
+
+.stat-heading {
+  font-weight: 700;
+  font-size: 4rem;
+}
+/* for mobile */
+@media only screen and (max-width: 375px) {
+  #title {
+    margin: 5% 6% 15%;
+  }
+
+  .logo {
+    height: 15px;
+    margin-top: 6px;
+  }
+
+  .title-btn {
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: hsl(321, 100%, 78%);
+    color: hsl(321, 100%, 78%);
+    font-size: 10px;
+    padding: 5px;
+    width: auto;
+    height: 27px;
+  }
+  .title-heading {
+    margin: 35% 0 1%;
+
+    
+    font-size: 1.5rem;
+    padding: 0 15px;
+  }
+  .title-body {
+    margin: 10% 0;
+  }
+  .get-started-btn {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+
+    border-radius: 20px;
+    font-size: small;
+    font-weight: 400;
+    padding: 10px 40px;
+  }
+  .title-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .flex-stat {
+   
+   
+    flex-direction: column;
+  }
+  .stat-icon {
+    width: 25px;
+  }
+
+  .stat-heading {
+    
+    font-size: 3rem;
+  }
+  .stats {
+    margin: 5% 0;
+  }
+}
+
+@media only screen and (max-width: 768px){
+   .title-body {
+      margin: 3% 0;
+      padding: 0 10%;
+    }
+    .stat-heading {
+      font-weight: 700;
+      font-size: 3.5rem;
+    }
+}
+
+/* testimonial Section */
+
+.bg-img {
+  width: 100%;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 10%;
+}
+.colored.flex-container {
+  background-color: hsl(207, 100%, 98%);
+}
+
+.testimonial-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.testimonial-heading {
+  font-weight: 900;
+  margin-bottom: 2%;
+}
+.testimonial-body {
+  padding-right: 30%;
+}
+.testimonial-text-1 {
+  padding-left: 30%;
+}
+
+@media only screen and (max-width: 375px) {
+  .flex-container {
+  
+    flex-direction: column;
+    
+  }
+  .colored.flex-container {
+    
+    flex-direction: column-reverse;
+  }
+
+  .testimonial-image {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .testimonial-heading {
+    font-weight: 900;
+    margin: 10% 0;
+  }
+  .testimonial-body {
+    padding-right: 0%;
+    margin-bottom: 10%;
+  }
+  .testimonial-text-1 {
+    padding: 0;
+    margin: 10% 0;
+  }
+}
+/* community Section */
+.community {
+  padding: 15% 10%;
+}
+.community-heading {
+  font-weight: 900;
+  margin-bottom: 5%;
+}
+
+/* footer-section */
+.flex-footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 10%;
+}
+.footer-contact {
+  padding-right: 52%;
+}
+
+.social-icons {
+  margin-right: 3%;
+}
+.subscribe-btn {
+  margin: 3%;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+
+  border-radius: 20px;
+  font-size: small;
+  font-weight: 400;
+  padding: 7px 40px;
+}
+.subscribe-btn:hover {
+  border-color: hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+}
+
+
+@media only screen and (max-width: 375px) {
+  .flex-footer {
+
+    
+    text-align: left;
+    flex-direction: column-reverse;
+   
+  }
+  .footer-contact {
+    padding-right: 0%;
+  }
+
+  .social-icons {
+    margin-right: 3%;
+  }
+
+  .newsletter-heading {
+    margin: 10% 0;
+  }
+  .footer-text {
+    margin: 5% 0;
+    line-height: 1.5;
+  }
+  .brand-icon {
+    margin-top: 20%;
+  }
+
+  #email {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .subscribe-btn {
+    margin-top: 3%;
+
+    border-radius: 15px;
+  }
+}
